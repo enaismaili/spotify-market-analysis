@@ -19,17 +19,16 @@ Currently, we have example data for India (IN) and Japan (JP). The dashboard vis
 
 📝 Project Overview
 
-The main goal of this project is to evaluate market opportunities on Spotify by:
-
+The main goal of this project is to identify growth opportunities for Spotify to deepen its market penetration across APAC music markets by:
 - Collecting raw playlist, track, artist, and genre data for specific markets (e.g., India, Japan) from the Spotify API.
-- Processing and transforming the raw data into structured CSV or JSON formats.
-- Performing analytics including:
-  - Genre Clustering: Group genres often appearing together and analyze their popularity.
-  - Market Opportunity Scoring: Rank markets based on growth potential, genre diversity, and local representation.
-  - Content Gap Analysis: Identify underrepresented or missing genres.
-- Delivering outputs as structured JSON insights and, for India, an interactive HTML dashboard.
+- Processing and transforming raw data into structured CSV or JSON formats for deeper analysis.
+- Performing advanced analytics to uncover strategic insights, including:
+   - Genre Clustering: Discovering which genres naturally group together and analyzing their popularity trends.
+   - Market Opportunity Scoring: Evaluating each market’s potential for expansion based on genre diversity, local content representation, and audience engagement.
+   - Content Gap Analysis: Identifying underrepresented or emerging genres that present new content or marketing opportunities.
+- Delivering insights through structured JSON files and, for India, an interactive HTML dashboard that visualizes key opportunities.
 
-The system is designed to easily scale to other APAC markets.
+The system is designed to scale easily, supporting expansion into additional APAC markets beyond the initial India and Japan examples.
 
 ---
 
