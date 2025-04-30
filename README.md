@@ -1,24 +1,24 @@
-🎵 Spotify APAC Market Analysis: Local Genre Growth Opportunity
+Spotify APAC Market Analysis: Local Genre Growth Opportunity
 
 This project analyzes local genre trends across APAC music markets using Spotify’s API. It automates data collection, transforms raw data into structured datasets, and applies advanced analytics techniques such as clustering, opportunity scoring, and content gap analysis. Insights are delivered via JSON outputs and an interactive HTML dashboard.
 
-📌 Note:
+Note:
 Currently, we have example data for India (IN) and Japan (JP). The dashboard visualization component is implemented only for India.
 
 ---
 
-📚 Table of Contents
-1. [Project Overview]
-2. [Data Flow]
-3. [Key Components]
-4. [Running the Project]
-5. [Tests]
-6. [Future Improvements]
-7. [Final Output Screenshots]
+Table of Contents
+1. Project Overview
+2. Data Flow
+3. Key Components
+4. Running the Project
+5. Tests
+6. Future Improvements
+7. Final Output Screenshots
 
 ---
 
-📝 Project Overview
+Project Overview
 
 The main goal of this project is to identify growth opportunities for Spotify to deepen its market penetration across APAC music markets by:
 - Collecting raw playlist, track, artist, and genre data for specific markets (e.g., India, Japan) from the Spotify API.
@@ -33,7 +33,7 @@ The system is designed to scale easily, supporting expansion into additional APA
 
 ---
 
-🔄 Data Flow
+Data Flow
 
 1. Data Collection (`spotify_client.py`): Fetches raw data from Spotify’s API, including playlists, tracks, artists, and genres.
 3. Data Processing (`data_processing.py`): Transforms the raw JSON data into structured CSV files for downstream analysis.
@@ -49,7 +49,7 @@ The system is designed to scale easily, supporting expansion into additional APA
 
 ---
 
-🔑 Key Components
+Key Components
 
 1. `spotify_client.py`
 - Authenticates via SpotifyClientCredentials.
@@ -76,7 +76,7 @@ The system is designed to scale easily, supporting expansion into additional APA
 
 ---
 
-⚙️ Running the Project
+Running the Project
 
 ```bash
 #1. Create and Activate a Virtual Environment
@@ -104,7 +104,7 @@ python src/utils/analyze_market_dashboard.py
 ```
 ---
 
-🧪 Tests
+Tests
 
 - test_spotify_client.py -> Mocks Spotify API and verifies client behavior and caching.
 - test_data_processing.py -> Validates correct CSV structure and parsing.
@@ -113,7 +113,7 @@ Run tests with: ```bash pytest tests/ ```
 
 ---
 
-🛠 Future Improvements
+Future Improvements
 
 - Improve clustering techniques with additional feature engineering (e.g., artist metadata, playlist characteristics).
 - Extend dashboard generation to additional APAC markets beyond India.
@@ -123,7 +123,7 @@ Run tests with: ```bash pytest tests/ ```
 
 --- 
 
-🎯 Dashbord Sscreenshots
+Dashbord Sscreenshots
 <img width="1495" alt="Screenshot 2025-04-28 at 16 49 08" src="https://github.com/user-attachments/assets/170b875b-b6f0-4b95-9fc6-9d07a521247f" />
 <img width="1230" alt="Screenshot 2025-04-28 at 16 49 47" src="https://github.com/user-attachments/assets/5e6cbb26-a604-44cd-878d-04e533d1933c" />
 
